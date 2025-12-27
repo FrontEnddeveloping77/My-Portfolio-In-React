@@ -186,3 +186,9 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 442px){
+    .hero{
+        margin-top: 100px;
+    }
+}
