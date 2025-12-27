@@ -143,7 +143,6 @@
     border-radius: 8px;
     box-shadow: 0 8px 24px var(--shadow-hover);
     min-width: 180px;
-    overflow: hidden;
     animation: dropdownSlide 0.3s ease;
     z-index: 100;
 }
