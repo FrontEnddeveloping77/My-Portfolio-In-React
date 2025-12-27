@@ -67,75 +67,76 @@ function Navbar({ theme, toggleTheme, language, changeLanguage }) {
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             aria-label="Toggle menu"
                         >
-                            <i className={`fa-solid fa-x ${theme === 'dark' ? 'theme-dark' : ''}`}></i>                        </button>
-                    <li><a href="#home" onClick={(e) => handleNavClick(e, 'home')}>{t.nav.home}</a></li>
-                    <li><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>{t.nav.about}</a></li>
-                    <li><a href="#skills" onClick={(e) => handleNavClick(e, 'skills')}>{t.nav.skills}</a></li>
-                    <li><a href="#services" onClick={(e) => handleNavClick(e, 'services')}>{t.nav.services}</a></li>
-                    <li><a href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>{t.nav.projects}</a></li>
-                    <li><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>{t.nav.contact}</a></li>
-                </ul>
+                            <i className={`fa-solid fa-x ${theme === 'dark' ? 'theme-dark' : ''}`}></i>
+                        </button>
+                        <li><a href="#home" onClick={(e) => handleNavClick(e, 'home')}>{t.nav.home}</a></li>
+                        <li><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>{t.nav.about}</a></li>
+                        <li><a href="#skills" onClick={(e) => handleNavClick(e, 'skills')}>{t.nav.skills}</a></li>
+                        <li><a href="#services" onClick={(e) => handleNavClick(e, 'services')}>{t.nav.services}</a></li>
+                        <li><a href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>{t.nav.projects}</a></li>
+                        <li><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>{t.nav.contact}</a></li>
+                    </ul>
 
-                <div className="navbar-actions">
-                    {/* Language Selector */}
-                    <div className="language-selector">
+                    <div className="navbar-actions">
+                        {/* Language Selector */}
+                        <div className="language-selector">
+                            <button
+                                className="language-toggle"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
+                                }}
+                                aria-label="Select language"
+                            >
+                                <span className="language-flag">{getCurrentLanguage().flag}</span>
+                                <span className="language-code">{language.toUpperCase()}</span>
+                                <span className={`language-arrow ${isLanguageDropdownOpen ? 'language-arrow-open' : ''}`}>
+                                    ▼
+                                </span>
+                            </button>
+
+                            {isLanguageDropdownOpen && (
+                                <div className="language-dropdown">
+                                    {languages.map((lang) => (
+                                        <button
+                                            key={lang.code}
+                                            className={`language-option ${language === lang.code ? 'language-option-active' : ''}`}
+                                            onClick={() => handleLanguageSelect(lang.code)}
+                                        >
+                                            <span className="language-flag">{lang.flag}</span>
+                                            <span className="language-label">{lang.label}</span>
+                                            {language === lang.code && (
+                                                <span className="language-check">✓</span>
+                                            )}
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Theme Toggle */}
                         <button
-                            className="language-toggle"
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
-                            }}
-                            aria-label="Select language"
+                            className={`theme-toggle ${theme === 'dark' ? 'theme-dark' : ''}`}
+                            onClick={toggleTheme}
+                            aria-label="Toggle theme"
                         >
-                            <span className="language-flag">{getCurrentLanguage().flag}</span>
-                            <span className="language-code">{language.toUpperCase()}</span>
-                            <span className={`language-arrow ${isLanguageDropdownOpen ? 'language-arrow-open' : ''}`}>
-                                ▼
-                            </span>
+                            {theme === 'light' ? 'Light' : 'Dark'}
                         </button>
 
-                        {isLanguageDropdownOpen && (
-                            <div className="language-dropdown">
-                                {languages.map((lang) => (
-                                    <button
-                                        key={lang.code}
-                                        className={`language-option ${language === lang.code ? 'language-option-active' : ''}`}
-                                        onClick={() => handleLanguageSelect(lang.code)}
-                                    >
-                                        <span className="language-flag">{lang.flag}</span>
-                                        <span className="language-label">{lang.label}</span>
-                                        {language === lang.code && (
-                                            <span className="language-check">✓</span>
-                                        )}
-                                    </button>
-                                ))}
-                            </div>
-                        )}
+
+                        {/* Mobile Menu Toggle */}
+                        <button
+                            className="mobile-menu-toggle"
+                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                            aria-label="Toggle menu"
+                        >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                     </div>
-
-                    {/* Theme Toggle */}
-                    <button
-                        className={`theme-toggle ${theme === 'dark' ? 'theme-dark' : ''}`}
-                        onClick={toggleTheme}
-                        aria-label="Toggle theme"
-                    >
-                        {theme === 'light' ? 'Light' : 'Dark'}
-                    </button>
-
-
-                    {/* Mobile Menu Toggle */}
-                    <button
-                        className="mobile-menu-toggle"
-                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        aria-label="Toggle menu"
-                    >
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
                 </div>
             </div>
-        </div>
         </nav >
     );
 }

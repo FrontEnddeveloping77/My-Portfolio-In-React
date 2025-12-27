@@ -27,6 +27,8 @@
     flex-wrap: wrap;
     padding: 1rem 0;
     gap: 40px;
+    position: relative;
+    overflow: visible;
 }
 
 .navbar-logo {
