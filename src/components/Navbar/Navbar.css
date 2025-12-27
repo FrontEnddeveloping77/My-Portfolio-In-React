@@ -304,6 +304,6 @@
     .container {
         padding: 0 10px;
         width: 100%;
-        overflow-x: hidden;
+        /* overflow: visible; */
     }
 }

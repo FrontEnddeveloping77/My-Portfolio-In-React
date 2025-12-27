@@ -12,7 +12,7 @@
 }
 
 .service-card {
-    min-width: 393.2px;
+    /* min-width: 393.2px; */
     min-height: 415.34px;
     max-width: 393.2px;
     max-height: 415.34px;
@@ -116,5 +116,11 @@
 
     .services-cta h3 {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .service-card {
+        max-width: 96%;
     }
 }
