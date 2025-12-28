@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import ScrollToTop from './components/ToTopBtn/totopbtn';
 import Footer from './components/Footer/Footer';
 import './App.css';
 // import ScrollToTop from './components/ToTopBtn/totopbtn';
@@ -33,6 +34,7 @@ function App() {
 
     return (
         <div className="app">
+            <h1>salom</h1>
             <Navbar
                 theme={theme}
                 toggleTheme={toggleTheme}
@@ -46,6 +48,7 @@ function App() {
             <Projects language={language} />
             <Contact language={language} />
             <Footer language={language} />
+            <ScrollToTop></ScrollToTop>
         </div>
     );
 }

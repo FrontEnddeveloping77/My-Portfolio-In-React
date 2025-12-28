@@ -1,7 +1,5 @@
 {
-  "name": "abdulazizavazovportfolio",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -54,5 +52,5 @@
   "bugs": {
     "url": "https://github.com/FrontEnddeveloping77/My-Portfolio-In-React/issues"
   },
-  "homepage": "https://github.com/FrontEnddeveloping77/My-Portfolio-In-React#readme"
+  "homepage": "http://localhost:3000"
 }

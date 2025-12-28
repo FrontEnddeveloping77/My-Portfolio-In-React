@@ -10,7 +10,7 @@ function Footer({ language }) {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>Abdulaziz</h3>
+                        <h3>Abdulaziz<span>.dev</span></h3>
                         <p>{t.footer.tagline}</p>
                     </div>
                     <div className="footer-links">
