@@ -183,7 +183,7 @@
     }
 }
 
-@media (max-width: 326px) {
+@media (max-width: 346px) {
     .contact-info p {
         max-width: 300px;
     }

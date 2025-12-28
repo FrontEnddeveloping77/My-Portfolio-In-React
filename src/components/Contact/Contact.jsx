@@ -58,7 +58,7 @@ function Contact({ language }) {
                                 <span className="contact-icon">📧</span>
                                 <div>
                                     <h4>{t.contact.email}</h4>
-                                    <a href="mailto:abdulazizxon.0058@gmail.com">abdulazizxon.0058@gmail.com</a>
+                                    <a href='.'>abdulazizxon.0058@gmail.com</a>
                                 </div>
                             </div>
                         </div>

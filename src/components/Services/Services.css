@@ -14,12 +14,12 @@
 .service-card {
     /* min-width: 393.2px; */
     min-height: 415.34px;
-    max-width: 393.2px;
-    max-height: 415.34px;
+    /* max-width: 393.2px; */
+    /* max-height: 415.34px; */
     background-color: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 12px;
-    padding: 2.5rem;
+    padding: 1.5rem;
     text-align: center;
     transition: all 0.3s ease;
 }

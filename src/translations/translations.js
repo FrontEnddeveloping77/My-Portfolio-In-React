@@ -102,7 +102,7 @@ export const translations = {
                 messageLabel: 'Your Message',
                 messagePlaceholder: 'Tell me about your project...',
                 submitBtn: 'Send Message',
-                successMessage: 'Thank you for your message! I will get back to you soon.'
+                successMessage: 'Thank you for your message. I will contact you via e-mail soon.'
             }
         },
         // Footer
@@ -214,7 +214,7 @@ export const translations = {
                 messageLabel: 'Ваше сообщение',
                 messagePlaceholder: 'Расскажите о вашем проекте...',
                 submitBtn: 'Отправить сообщение',
-                successMessage: 'Спасибо за ваше сообщение! Я свяжусь с вами в ближайшее время.'
+                successMessage: 'Спасибо за ваше сообщение! Я свяжусь с вами по электронной почте в ближайшее время.'
             }
         },
         // Footer
@@ -326,7 +326,7 @@ export const translations = {
                 messageLabel: 'Xabaringiz',
                 messagePlaceholder: 'Loyihangiz haqida aytib bering...',
                 submitBtn: 'Xabar yuborish',
-                successMessage: 'Xabaringiz uchun rahmat! Tez orada siz bilan bog‘lanaman.'
+                successMessage: 'Xabaringiz uchun rahmat! Tez orada siz bilan elektron pochta orqali bog\'lanaman.'
             }
         },
         // Footer
