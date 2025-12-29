@@ -17,13 +17,6 @@ function Contact({ language }) {
                         <p>{t.contact.description}</p>
                         <div className="contact-details">
                             <div className="contact-item">
-                                <span className="contact-icon">📧</span>
-                                <div>
-                                    <h4>{t.contact.email}</h4>
-                                    <a href='.'>abdulazizxon.0058@gmail.com</a>
-                                </div>
-                            </div>
-                            <div className="contact-item">
                                 <span className="contact-icon">📱</span>
                                 <div>
                                     <h4>{t.contact.telegram}</h4>
