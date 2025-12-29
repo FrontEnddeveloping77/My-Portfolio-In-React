@@ -89,7 +89,9 @@ export const translations = {
             subtitle: 'Have a project in mind? Let\'s make it happen',
             getInTouch: 'Get in Touch',
             description: 'Ready to start your project? Fill out the form and I\'ll respond within 24 hours. Let\'s discuss how I can help bring your vision to life.',
-            email: 'Email',
+            email: 'Contact With Email.',
+            telegram: "Contact With Telegram.",
+            whatsapp: "Contact With WhatsApp.",
             linkedin: 'LinkedIn',
             github: 'GitHub',
             connectText: 'Connect with me',
@@ -102,7 +104,7 @@ export const translations = {
                 messageLabel: 'Your Message',
                 messagePlaceholder: 'Tell me about your project...',
                 submitBtn: 'Send Message',
-                successMessage: 'Thank you for your message. I will contact you via e-mail soon.'
+                successMessage: 'Thank you for your message! I will get back to you via email soon.'
             }
         },
         // Footer
@@ -202,6 +204,8 @@ export const translations = {
             getInTouch: 'Связаться со мной',
             description: 'Готовы начать проект? Заполните форму, и я отвечу в течение 24 часов. Давайте обсудим, как я могу помочь воплотить вашу идею в жизнь.',
             email: 'Электронная почта',
+            telegram: "Связаться через Telegram",
+            whatsapp: "Связаться через WhatsApp",
             linkedin: 'LinkedIn',
             github: 'GitHub',
             connectText: 'Связаться со мной',
@@ -314,6 +318,8 @@ export const translations = {
             getInTouch: 'Men bilan bog‘laning',
             description: 'Loyihani boshlashga tayyormisiz? Formani to‘ldiring va men 24 soat ichida javob beraman. G‘oyangizni hayotga tatbiq qilishda qanday yordam berishimni muhokama qilaylik.',
             email: 'Elektron pochta',
+            telegram: "Telegram orqali bog‘lanish",
+            whatsapp: "WhatsApp orqali bog‘lanish",
             linkedin: 'LinkedIn',
             github: 'GitHub',
             connectText: 'Men bilan bog‘laning',

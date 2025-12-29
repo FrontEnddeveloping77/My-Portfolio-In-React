@@ -17,6 +17,12 @@
     font-size: 1.5rem;
     color: var(--text-color);
     margin-bottom: 0.5rem;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+
+.footer-brand h3:hover{
+    color: var(--accent-color);
 }
 
 .footer-brand span {
