@@ -76,8 +76,8 @@ export const translations = {
             subtitle: 'Real-world solutions I\'ve delivered to clients',
             items: [
                 {
-                    title: 'DataSite Academy',
-                    description: 'A modern and attractive website for the DataSite Academy, effectively showcasing their services and providing a user-friendly experience.'
+                    title: 'Hipstyle',
+                    description: 'Modern and creative barbershop website. Let\'s visit us!'
                 }
             ],
             github: 'GitHub',
@@ -189,8 +189,8 @@ export const translations = {
             subtitle: 'Реальные решения, которые я реализовал для клиентов',
             items: [
                 {
-                    title: 'DataSite Academy',
-                    description: 'Современный и привлекательный сайт для DataSite Academy, эффективно демонстрирующий их услуги и предоставляющий удобный интерфейс для пользователей.'
+                    title: 'Hipstyle',
+                    description: 'Современный и креативный веб-сайт для парикмахерской. Давайте посетим нас!'
                 }
             ],
             github: 'GitHub',
@@ -302,8 +302,8 @@ export const translations = {
             subtitle: 'Mijozlar uchun taqdim etilgan real yechimlar',
             items: [
                 {
-                    title: 'DataSite Academy',
-                    description: 'DataSite Academy uchun zamonaviy va jozibador veb-sayt, xizmatlarini samarali namoyish etadi va foydalanuvchilar uchun qulay tajriba taqdim etadi.'
+                    title: 'Hipstyle',
+                    description: 'Sartaroshxona uchun zamonaviy va kreativ sartaroshxona veb sayti . Keling, bizga tashrif buyuring!'
                 }
             ],
             github: 'GitHub',

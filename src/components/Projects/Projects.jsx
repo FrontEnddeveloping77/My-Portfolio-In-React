@@ -9,9 +9,9 @@ function Projects({ language }) {
             id: 1,
             title: t.projects.items[0].title,
             description: t.projects.items[0].description,
-            technologies: ['React', 'CSS3'],
+            technologies: ['React', 'JavaScript', 'CSS3'],
             image: '👨‍💻',
-            demo: 'https://demo.com'
+            demo: 'https://exam-seven-phi.vercel.app/'
         }
     ];
 
