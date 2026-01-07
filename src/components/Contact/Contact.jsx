@@ -20,7 +20,7 @@ function Contact({ language }) {
                                 <span className="contact-icon">📱</span>
                                 <div>
                                     <h4>{t.contact.telegram}</h4>
-                                    <a href='https://t.me/Abdulaziz_Web01'>Telegram</a>
+                                    <a href='https://t.me/abdulazizavazov_12'>Telegram</a>
                                 </div>
                             </div>
                             <div className="contact-item">
