@@ -12,6 +12,14 @@ function Projects({ language }) {
             technologies: ['React', 'JavaScript', 'CSS3'],
             image: '👨‍💻',
             demo: 'https://exam-seven-phi.vercel.app/'
+        },
+        {
+            id: 1,
+            title: t.projects.items[1].title,
+            description: t.projects.items[1].description,
+            technologies: ['React', 'JavaScript', 'CSS3'],
+            image: '👨‍💻',
+            demo: 'https://e-shop-rho-rouge.vercel.app/'
         }
     ];
 

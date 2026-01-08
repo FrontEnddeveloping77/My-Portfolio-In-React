@@ -78,6 +78,10 @@ export const translations = {
                 {
                     title: 'Hipstyle',
                     description: 'Modern and creative barbershop website. Let\'s visit us!'
+                },
+                {
+                    title: "E-Shop",
+                    description: "Modern and creative e-commerce web site."
                 }
             ],
             github: 'GitHub',
@@ -191,6 +195,10 @@ export const translations = {
                 {
                     title: 'Hipstyle',
                     description: 'Современный и креативный веб-сайт для парикмахерской. Давайте посетим нас!'
+                },
+                {
+                    title: "E-Shop",
+                    description: "Современный и креативный веб-сайт для электронной магазин."
                 }
             ],
             github: 'GitHub',
@@ -304,6 +312,10 @@ export const translations = {
                 {
                     title: 'Hipstyle',
                     description: 'Sartaroshxona uchun zamonaviy va kreativ sartaroshxona veb sayti . Keling, bizga tashrif buyuring!'
+                },
+                {
+                    title: "E-Shop",
+                    description: "Zamonaviy va ijodiy elektron do'kon veb-sayti."
                 }
             ],
             github: 'GitHub',
