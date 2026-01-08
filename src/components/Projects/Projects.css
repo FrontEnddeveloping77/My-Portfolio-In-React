@@ -3,12 +3,16 @@
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
 .project-card {
+    width: 270px;
+    height: 260px;
     background-color: var(--bg-color);
     border: 1px solid var(--card-border);
     border-radius: 12px;
@@ -16,6 +20,10 @@
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .project-card:hover {
@@ -24,32 +32,35 @@
     border-color: var(--accent-color);
 }
 
-.project-icon {
-    font-size: 5rem;
-    text-align: center;
-    padding: 2rem;
-    background: linear-gradient(135deg, var(--card-bg), var(--bg-color));
+.project-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icon .img-con {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.project-icon .img-con img{
+    width: 100%;
+    object-fit: cover;
 }
 
 .project-content {
-    padding: 2rem;
+    max-height: 60px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     flex: 1;
+    text-align: center;
 }
 
-.project-content h3 {
-    font-size: 1.5rem;
+.project-card h1 {
+    font-size: 2rem;
     color: var(--text-color);
-    margin-bottom: 0.5rem;
-}
-
-.project-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--text-secondary);
-    flex: 1;
+    text-align: center;
 }
 
 .project-tech {
@@ -68,12 +79,14 @@
     border-radius: 20px;
     font-weight: 500;
 }
-
-.project-links {
+/* 
+.links {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
-}
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+} */
 
 .project-link {
     font-size: 1rem;
@@ -81,12 +94,11 @@
     color: var(--text-secondary);
     text-decoration: none;
     transition: all 0.3s ease;
-    padding: 0.5rem 0;
+    text-align: center;
 }
 
 .project-link:hover {
     color: var(--accent-color);
-    transform: translateX(5px);
 }
 
 .project-link-primary {
