@@ -86,7 +86,11 @@ export const translations = {
                 {
                     title: "Weather Dashboard",
                     description: "Modern and creative weather-dashboard web site."
-                }
+                },
+                {
+                    title: "Microsoft Edge",
+                    description: "Microsoft Edge web site."
+                },
             ],
             github: 'GitHub',
             liveDemo: 'Live Demo'
@@ -207,7 +211,11 @@ export const translations = {
                 {
                     title: "Weather Dashboard",
                     description: "Современный и креативный веб-сайт с погодной информационной панелью."
-                }
+                },
+                {
+                    title: "Microsoft Edge",
+                    description: "Веб-сайт Microsoft Edge."
+                },
             ],
             github: 'GitHub',
             liveDemo: 'Демо'
@@ -328,38 +336,42 @@ export const translations = {
                 {
                     title: "Weather Dashboard",
                     description: "Zamonaviy va ijodiy ob- havo paneli veb - sayti."
-                }
+                },
+                {
+                    title: "Microsoft Edge",
+                    description: "Microsoft Edge veb-sayti."
+                },
             ],
-github: 'GitHub',
-    liveDemo: 'Jonli demo'
+            github: 'GitHub',
+            liveDemo: 'Jonli demo'
         },
-// Contact Section
-contact: {
-    title: 'Keling, birga ishlaylik',
-        subtitle: 'Loyiha g‘oyangiz bormi? Uni birgalikda amalga oshiraylik!',
+        // Contact Section
+        contact: {
+            title: 'Keling, birga ishlaylik',
+            subtitle: 'Loyiha g‘oyangiz bormi? Uni birgalikda amalga oshiraylik!',
             getInTouch: 'Men bilan bog‘laning',
-                description: 'Loyihani boshlashga tayyormisiz? Menga shu ikki tarmoqlardan biri bilan bog\'laning, men albatta sizga aloqaga chiqaman!.',
-                    telegram: "Telegram orqali bog‘lanish",
-                        whatsapp: "WhatsApp orqali bog‘lanish",
-                            linkedin: 'LinkedIn',
-                                github: 'GitHub',
-                                    connectText: 'Men bilan bog‘laning',
-                                        viewCodeText: 'Kodimni ko‘ring',
-                                            form: {
-        nameLabel: 'Ismingiz',
-            namePlaceholder: 'Abdulaziz Avazov',
+            description: 'Loyihani boshlashga tayyormisiz? Menga shu ikki tarmoqlardan biri bilan bog\'laning, men albatta sizga aloqaga chiqaman!.',
+            telegram: "Telegram orqali bog‘lanish",
+            whatsapp: "WhatsApp orqali bog‘lanish",
+            linkedin: 'LinkedIn',
+            github: 'GitHub',
+            connectText: 'Men bilan bog‘laning',
+            viewCodeText: 'Kodimni ko‘ring',
+            form: {
+                nameLabel: 'Ismingiz',
+                namePlaceholder: 'Abdulaziz Avazov',
                 emailLabel: 'Emailingiz',
-                    emailPlaceholder: 'abdulazizxon.0058@gmail.com',
-                        messageLabel: 'Xabaringiz',
-                            messagePlaceholder: 'Loyihangiz haqida aytib bering...',
-                                submitBtn: 'Xabar yuborish',
-                                    successMessage: 'Xabaringiz uchun rahmat! Tez orada siz bilan elektron pochta orqali bog\'lanaman.'
-    }
-},
-// Footer
-footer: {
-    tagline: 'Zamonaviy veb-yechimlar yaratish',
-        copyright: 'Barcha huquqlar himoyalangan.'
-}
+                emailPlaceholder: 'abdulazizxon.0058@gmail.com',
+                messageLabel: 'Xabaringiz',
+                messagePlaceholder: 'Loyihangiz haqida aytib bering...',
+                submitBtn: 'Xabar yuborish',
+                successMessage: 'Xabaringiz uchun rahmat! Tez orada siz bilan elektron pochta orqali bog\'lanaman.'
+            }
+        },
+        // Footer
+        footer: {
+            tagline: 'Zamonaviy veb-yechimlar yaratish',
+            copyright: 'Barcha huquqlar himoyalangan.'
+        }
     }
 };

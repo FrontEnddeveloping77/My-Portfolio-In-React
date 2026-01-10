@@ -25,6 +25,13 @@ function Projects({ language }) {
             description: t.projects.items[2].description,
             image: 'https://i.postimg.cc/nL6hSH9x/photo-2026-01-10-09-47-59.jpg',
             demo: 'https://weather-dashboard-beta-sepia.vercel.app/'
+        },
+        {
+            id: 4,
+            title: t.projects.items[3].title,
+            description: t.projects.items[3].description,
+            image: 'https://i.postimg.cc/dQjKLzcB/photo-2026-01-10-14-39-56.jpg',
+            demo: 'https://microsoft-edge.vercel.app/'
         }
     ];
 
