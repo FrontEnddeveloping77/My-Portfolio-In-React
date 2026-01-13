@@ -12,7 +12,7 @@
 
 .project-card {
     width: 300px;
-    height: 300px;
+    height: 260px;
     background-color: var(--bg-color);
     border: 1px solid var(--card-border);
     border-radius: 12px;

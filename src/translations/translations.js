@@ -77,19 +77,15 @@ export const translations = {
             items: [
                 {
                     title: 'Hipstyle',
-                    description: 'Modern and creative barbershop website. Let\'s visit us!'
                 },
                 {
                     title: "E-Shop",
-                    description: "Modern and creative e-commerce web site."
                 },
                 {
                     title: "Weather Dashboard",
-                    description: "Modern and creative weather-dashboard web site."
                 },
                 {
                     title: "Microsoft Edge",
-                    description: "Microsoft Edge web site."
                 },
             ],
             github: 'GitHub',
@@ -108,14 +104,17 @@ export const translations = {
             connectText: 'Connect with me',
             viewCodeText: 'View my code',
             form: {
-                nameLabel: 'Your Name',
-                namePlaceholder: 'Abdulaziz Avazov',
-                emailLabel: 'Your Email',
-                emailPlaceholder: 'abdulazizxon.0058@gmail.com',
-                messageLabel: 'Your Message',
-                messagePlaceholder: 'Tell me about your project...',
+                firstNameLabel: 'First Name',
+                firstNamePlaceholder: 'Abdulaziz',
+                lastNameLabel: 'Last Name',
+                lastNamePlaceholder: 'Avazov',
+                phoneLabel: 'Phone Number',
+                phonePlaceholder: '+998 90 123 45 67',
+                platformLabel: 'Contact me via',
                 submitBtn: 'Send Message',
-                successMessage: 'Thank you for your message! I will get back to you via email soon.'
+                sendingBtn: 'Sending...',
+                successMessage: 'Thank you! I will contact you soon.',
+                errorMessage: 'Failed to send. Please try again.'
             }
         },
         // Footer
@@ -202,15 +201,12 @@ export const translations = {
             items: [
                 {
                     title: 'Hipstyle',
-                    description: 'Современный и креативный веб-сайт для парикмахерской. Давайте посетим нас!'
                 },
                 {
                     title: "E-Shop",
-                    description: "Современный и креативный веб-сайт для электронной магазин."
                 },
                 {
                     title: "Weather Dashboard",
-                    description: "Современный и креативный веб-сайт с погодной информационной панелью."
                 },
                 {
                     title: "Microsoft Edge",
@@ -233,14 +229,17 @@ export const translations = {
             connectText: 'Связаться со мной',
             viewCodeText: 'Посмотреть код',
             form: {
-                nameLabel: 'Ваше имя',
-                namePlaceholder: 'Абдулазиз Авазов',
-                emailLabel: 'Ваш email',
-                emailPlaceholder: 'abdulazizxon.0058@gmail.com',
-                messageLabel: 'Ваше сообщение',
-                messagePlaceholder: 'Расскажите о вашем проекте...',
-                submitBtn: 'Отправить сообщение',
-                successMessage: 'Спасибо за ваше сообщение! Я свяжусь с вами по электронной почте в ближайшее время.'
+                firstNameLabel: 'Имя',
+                firstNamePlaceholder: 'Абдулазиз',
+                lastNameLabel: 'Фамилия',
+                lastNamePlaceholder: 'Авазов',
+                phoneLabel: 'Номер телефона',
+                phonePlaceholder: '+998 90 123 45 67',
+                platformLabel: 'Связаться через',
+                submitBtn: 'Отправить',
+                sendingBtn: 'Отправка...',
+                successMessage: 'Спасибо! Я свяжусь с вами в ближайшее время.',
+                errorMessage: 'Не удалось отправить. Попробуйте еще раз.'
             }
         },
         // Footer
@@ -327,19 +326,15 @@ export const translations = {
             items: [
                 {
                     title: 'Hipstyle',
-                    description: 'Sartaroshxona uchun zamonaviy va kreativ sartaroshxona veb sayti . Keling, bizga tashrif buyuring!'
                 },
                 {
                     title: "E-Shop",
-                    description: "Zamonaviy va ijodiy elektron do'kon veb-sayti."
                 },
                 {
                     title: "Weather Dashboard",
-                    description: "Zamonaviy va ijodiy ob- havo paneli veb - sayti."
                 },
                 {
                     title: "Microsoft Edge",
-                    description: "Microsoft Edge veb-sayti."
                 },
             ],
             github: 'GitHub',
@@ -358,14 +353,17 @@ export const translations = {
             connectText: 'Men bilan bog‘laning',
             viewCodeText: 'Kodimni ko‘ring',
             form: {
-                nameLabel: 'Ismingiz',
-                namePlaceholder: 'Abdulaziz Avazov',
-                emailLabel: 'Emailingiz',
-                emailPlaceholder: 'abdulazizxon.0058@gmail.com',
-                messageLabel: 'Xabaringiz',
-                messagePlaceholder: 'Loyihangiz haqida aytib bering...',
+                firstNameLabel: 'Ism',
+                firstNamePlaceholder: 'Abdulaziz',
+                lastNameLabel: 'Familya',
+                lastNamePlaceholder: 'Avazov',
+                phoneLabel: 'Telefon raqam',
+                phonePlaceholder: '+998 90 123 45 67',
+                platformLabel: 'Men bilan bog\'laning',
                 submitBtn: 'Xabar yuborish',
-                successMessage: 'Xabaringiz uchun rahmat! Tez orada siz bilan elektron pochta orqali bog\'lanaman.'
+                sendingBtn: 'Yuborilmoqda...',
+                successMessage: 'Rahmat! Tez orada siz bilan bog\'lanaman.',
+                errorMessage: 'Yuborib bo\'lmadi. Qaytadan urinib ko\'ring.'
             }
         },
         // Footer
