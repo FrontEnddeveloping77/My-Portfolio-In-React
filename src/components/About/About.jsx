@@ -21,7 +21,7 @@ function About({ language }) {
                         </p>
                         <div className="about-highlights">
                             <div className="highlight-item">
-                                <h3>1+</h3>
+                                <h3>4+</h3>
                                 <p>{t.about.projectsCompleted}</p>
                             </div>
                             <div className="highlight-item">
