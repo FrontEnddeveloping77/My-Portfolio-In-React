@@ -1,4 +1,5 @@
 import { translations } from '../../translations/translations';
+import heroImage from '../../assets/image.png';
 import './Hero.css';
 
 function Hero({ language }) {
@@ -34,26 +35,13 @@ function Hero({ language }) {
                         </div>
                     </div>
                     <div className="hero-visual">
-                        <div className="hero-card">
-                            <div className="code-window">
-                                <div className="code-header">
-                                    <div className="code-dots">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <span className="code-title">portfolio.jsx</span>
-                                </div>
-                                <div className="code-content">
-                                    <code>
-                                        <span className="code-keyword">const</span> <span className="code-variable">developer</span> = &#123;<br />
-                                        &nbsp;&nbsp;<span className="code-property">name</span>: <span className="code-string">"Abdulaziz"</span>,<br />
-                                        &nbsp;&nbsp;<span className="code-property">skills</span>: [<span className="code-string">"React"</span>, <span className="code-string">"JS"</span>],<br />
-                                        &nbsp;&nbsp;<span className="code-property">passion</span>: <span className="code-string">"Clean Code"</span><br />
-                                        &#125;;
-                                    </code>
-                                </div>
-                            </div>
+                        <div className="hero-image-wrapper">
+                            <div className="hero-image-glow"></div>
+                            <img
+                                src={heroImage}
+                                alt="Abdulaziz Avazov"
+                                className="hero-image"
+                            />
                         </div>
                     </div>
                 </div>
